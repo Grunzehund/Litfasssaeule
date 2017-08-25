@@ -1,0 +1,24 @@
+#define LATCH D2
+#define CLOCK D3
+#define DATA D4
+#define MAGNET_PIN D1
+
+#define DEBUG1
+#define BIG_AND_FAST
+
+#define OWN_SSID "Litfasssaeule"
+#define OWN_PSK  "Gulligunde"
+
+#define DISPLAY_WIDTH 192
+#define DISPLAY_HEIGHT 24
+#define CNT_ARMS 1
+
+#define FONT_WIDTH 8
+#define FONT_HEIGHT 12
+
+#define SIGNALS_PER_TURN 4
+#define TURNS_PER_SECOND 5
+#define MICRO 1000000
+
+#define DELAY_TIME (MICRO/TURNS_PER_SECOND)/DISPLAY_WIDTH
+#define MAX_TEXT_LENGTH (DISPLAY_WIDTH/FONT_WIDTH) * (DISPLAY_HEIGHT/FONT_HEIGHT)

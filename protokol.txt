@@ -1,0 +1,7 @@
+get requests:
+width: breite
+height: höhe
+data: Daten
+
+'X' = aus
+' ' = an 
