@@ -1,27 +1,28 @@
 #define startseite "\
   <meta charset='UTF-8'>\
-	<html lang='de'>\
-		<head>\
-			<title>\
-				Die Elektronische Litfaßsäule\
-			</title>\
-		</head>\
-		<body>\
+  <html lang='de'>\
+    <head>\
+      <title>\
+        Die Elektronische Litfaßsäule\
+      </title>\
+    </head>\
+    <body>\
         <h1> Wilkommen in dem Kontroll-Center von der elektronischen Litfaßsäule </h1>\
         <h3> Hier können sie den Text, sowie die dazugehörigen x- und y-Koordinaten eingeben </br> oder die Anzeige leeren </h3>\
-   			<form action='set.html' method='get'>\
+        <form action='set.html' method='get'>\
           <h3>x: <input type='number' name='xwert' value='0'></h3></br>\
           <h3>y: <input type='number' name='ywert'value='0'></h3></br></br>\
-				  <input type='text' name='text' value='text'></br>\
-				  <input type='submit' name='submit' value='submit-set'>\
+          <input type='text' name='text' value='text'></br>\
+          <input type='submit' name='submit' value='submit-set'>\
           <input type='reset'>\
-			</form> \
+      </form> \
       <form action='set.html' method='get'>\
         <input type='submit' name='submit' value='submit-clear' max='DISPLAY_WIDTH/FONT_WIDTH'>\
       </form>\
       <h3><a href='specs.html'>zu den Technischen Daten des NodeMCU</a></h3>\
-		</body>\
-	</html>"
+      <h3>Sofware by Jannik Klarmann</h3>\
+    </body>\
+  </html>"
 
 #define done_seite "\
   <meta charset='UTF-8'>\
@@ -34,7 +35,8 @@
     <body>\
       <h1><center> Ihre Änderungen wurden erfolgreich übernommen </center></h1>\
       <h3><a href='/'>zurück zur Startseite</a></h3>\
-    </body>\
+      <h3>Sofware by Jannik Klarmann</h3>\
+      </body>\
   </html>"
 
 #define error_seite "\
@@ -55,6 +57,7 @@
           <li>Kontaktieren sie ihren Systemadministrator oder jemanden, der sich damit auskennt</li>\
         </ol>\
      </details>\
+     <h3>Sofware by Jannik Klarmann</h3>\
     </body>\
   </html>"
 
@@ -76,6 +79,7 @@
         <li>Fragen sie den zuständigen Administrator</li>\
       </ol>\
     </h3>\
+    <h3>Sofware by Jannik Klarmann</h3>\
     </body>\
   </html>"
 
@@ -102,5 +106,6 @@
 #define technik_seite_2 "\
     </font></details>\
     <h3><a href='/'>zurück zur Startseite</a></h3>\
+    <h3>Sofware by Jannik Klarmann</h3>\
     </body>\
   </html>"
