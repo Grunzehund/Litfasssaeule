@@ -20,7 +20,7 @@
         <input type='submit' name='submit' value='submit-clear' max='DISPLAY_WIDTH/FONT_WIDTH'>\
       </form>\
       <h3><a href='specs.html'>zu den Technischen Daten des NodeMCU</a></h3>\
-      <h3>Sofware by Jannik Klarmann</h3>\
+      <h3>Software by Jannik Klarmann</h3>\
     </body>\
   </html>"
 
@@ -35,7 +35,7 @@
     <body>\
       <h1><center> Ihre Änderungen wurden erfolgreich übernommen </center></h1>\
       <h3><a href='/'>zurück zur Startseite</a></h3>\
-      <h3>Sofware by Jannik Klarmann</h3>\
+      <h3>Software by Jannik Klarmann</h3>\
       </body>\
   </html>"
 
@@ -57,7 +57,7 @@
           <li>Kontaktieren sie ihren Systemadministrator oder jemanden, der sich damit auskennt</li>\
         </ol>\
      </details>\
-     <h3>Sofware by Jannik Klarmann</h3>\
+     <h3>Software by Jannik Klarmann</h3>\
     </body>\
   </html>"
 
@@ -79,7 +79,7 @@
         <li>Fragen sie den zuständigen Administrator</li>\
       </ol>\
     </h3>\
-    <h3>Sofware by Jannik Klarmann</h3>\
+    <h3>Software by Jannik Klarmann</h3>\
     </body>\
   </html>"
 
@@ -106,6 +106,6 @@
 #define technik_seite_2 "\
     </font></details>\
     <h3><a href='/'>zurück zur Startseite</a></h3>\
-    <h3>Sofware by Jannik Klarmann</h3>\
+    <h3>Software by Jannik Klarmann</h3>\
     </body>\
   </html>"
